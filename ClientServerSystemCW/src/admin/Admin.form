@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="admin.Admin">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="15" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="904" height="469"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="47338" class="javax.swing.JTextField" binding="textFieldData">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="34"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="6d66c" class="javax.swing.JTextField" binding="textFieldSelect">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="20"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c565d" class="javax.swing.JTextField" binding="textFieldCommand">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="20"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="b010b" class="javax.swing.JButton" binding="buttonConnect">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Connect to Server"/>
+        </properties>
+      </component>
+      <component id="b5a17" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Insert data:"/>
+        </properties>
+      </component>
+      <component id="66f07" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Select a line:"/>
+        </properties>
+      </component>
+      <component id="f1536" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Command:"/>
+        </properties>
+      </component>
+      <vspacer id="b25b6">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="168" height="14"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="9088a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="From table:"/>
+        </properties>
+      </component>
+      <component id="d1a3c" class="javax.swing.JComboBox" binding="comboBoxTables">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <model>
+            <item value="odds"/>
+            <item value="bookies"/>
+            <item value="football-match-data"/>
+          </model>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+      <vspacer id="d3fdd">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="168" height="14"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="38f17" class="javax.swing.JTextArea" binding="labelDatetime">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <wrapStyleWord value="false"/>
+        </properties>
+      </component>
+      <component id="4cbb" class="javax.swing.JTextArea" binding="labelStatus">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="200" height="60"/>
+            <preferred-size width="200" height="60"/>
+            <maximum-size width="200" height="60"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <foreground color="-16777216"/>
+          <lineWrap value="true"/>
+          <text value=""/>
+          <wrapStyleWord value="false"/>
+        </properties>
+      </component>
+      <component id="7951e" class="javax.swing.JButton" binding="buttonExecute">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Execute"/>
+        </properties>
+      </component>
+      <hspacer id="679e9">
+        <constraints>
+          <grid row="0" column="2" row-span="15" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="20" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <scrollpane id="2ad5c">
+        <constraints>
+          <grid row="0" column="0" row-span="15" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="800" height="400"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="8f87c" class="javax.swing.JTable" binding="tableData">
+            <constraints/>
+            <properties>
+              <selectionForeground color="-4473925"/>
+            </properties>
+            <clientProperties>
+              <JTable.autoStartsEdit class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
